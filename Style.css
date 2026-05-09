@@ -1,0 +1,72 @@
+body{
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+    height: 100vh;
+
+    flex-direction: column;
+
+
+}
+
+Button{
+
+background-color: blue;
+color: white;
+border: none;
+padding: 15px 30px;
+border-radius: 40px;
+margin-top: 700px;
+}
+
+body{ 
+
+    background-image: url(imagem.jpg);
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+ 
+
+
+    h2{
+
+        color: rgb(0, 0, 0);
+
+        position: relative;
+
+        animation: mover 5s infinite alternate;
+
+    }
+
+        @keyframes mover {
+
+            from{
+                left: 0px;
+            }
+
+            to{
+                left: 300px;
+            }
+
+            }
+            
+p{
+    margin-top: 5px;
+    color: white;
+}
+
+cabecalho{
+    background: white;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+}
+        
+    
